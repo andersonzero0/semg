@@ -5,6 +5,9 @@ import tkinter as tk
 from tkinter import ttk
 import binascii
 from twilio.rest import Client
+from PIL import Image, ImageTk
+import urllib.request
+import io
 
 # Conexão com o MongoDB Atlas
 client = MongoClient('mongodb+srv://root:projectnfc@cluster0.601pr9k.mongodb.net/?retryWrites=true&w=majority')
@@ -13,7 +16,7 @@ collection = db['infos']
 
 # Configuração do Twilio
 account_sid = 'AC55d0f44906c38c5599002a6a090643d1'
-auth_token = 'acd3b30c41bd65afd0f20d850a4a8f73'
+auth_token = 'd25a46f9e39284954bd8dcbbe2381e27'
 twilio_client = Client(account_sid, auth_token)
 
 def on_connect(tag):
@@ -42,19 +45,26 @@ def on_connect(tag):
         contato_responsavel = data.get("contact_resp")
         avatar_url = data.get("avatar")
 
+        # Renderização da imagem
+        image_data = urllib.request.urlopen(avatar_url).read()
+        image = Image.open(io.BytesIO(image_data))
+        image = image.resize((100, 100))  # Ajuste o tamanho da imagem conforme necessário
+        photo = ImageTk.PhotoImage(image)
+
         info_label.config(text=f"Tag Lida!\n\nNome: {nome}\nTurma: {turma}\nNome do Responsável: {nome_responsavel}\nContato do Responsável: {contato_responsavel}")
+        avatar_label.config(image=photo)
+        avatar_label.image = photo
 
         progress_bar['value'] = 90
         root.update_idletasks()
 
         mensagem = f"Olá, {nome_responsavel}! Seu(a) filho(a) {nome} da turma {turma} utilizou a tag NFC."
-        contato = f"whatsapp:{contato_responsavel}"
-
+        
         # Envio da mensagem pelo Twilio
         message = twilio_client.messages.create(
             from_='whatsapp:+14155238886',
-		  body=mensagem,
-		  to=contato
+            body=mensagem,
+            to='whatsapp:{0}'.format(contato_responsavel)
         )
 
         print(message.sid)
@@ -99,6 +109,10 @@ root.geometry("600x500")
 # Label para exibir as informações
 info_label = tk.Label(root, text="")
 info_label.pack()
+
+# Label para exibir o avatar
+avatar_label = tk.Label(root)
+avatar_label.pack(pady=10)
 
 # Barra de progresso
 progress_bar = ttk.Progressbar(root, orient='horizontal', length=200, mode='determinate')
