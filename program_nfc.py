@@ -49,11 +49,11 @@ def adicionar_dado():
     visualizar_dados()
 
 def validate_name(name):
-    pattern = r'^[a-zA-Z\s]+$'
+    pattern = r'^[a-zA-Z\s\S]+$'
     return re.match(pattern, name)
 
 def validate_contact(contact):
-    pattern = r'^\d+$'
+    pattern = r'^[a-zA-Z0-9\s\S]+$'
     return re.match(pattern, contact)
 
 def visualizar_dados():
