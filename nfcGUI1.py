@@ -78,7 +78,7 @@ def on_connect(tag):
             image = Image.open(io.BytesIO(image_data))
             image = image.resize((100, 100))
             
-            # Create circular mask for the image
+            # Criação da máscara circular para a imagem
             rounded_image = create_circle_mask(image, (100, 100))
             
             photo = ImageTk.PhotoImage(rounded_image)
@@ -110,6 +110,20 @@ def on_connect(tag):
                 except Exception as e:
                     logging.error("Erro ao enviar mensagem pelo Twilio: %s", e)
 
+            # Contagem de frequência de entrada
+            if status_atual.get() == "Entrada":
+                now = datetime.now()
+                if now.hour == 18 and 00 <= now.minute <= 59 or now.hour == 20 and now.minute <= 00:
+                    frequency_collection = db['frequencia_entrada']
+                    today = datetime.now().strftime("%Y-%m-%d")
+                    query = {"data": today}
+                    frequency_data = frequency_collection.find_one(query)
+                    if frequency_data:
+                        count = frequency_data.get("quantidade")
+                        frequency_collection.update_one(query, {"$set": {"quantidade": count + 1}})
+                    else:
+                        frequency_collection.insert_one({"data": today, "quantidade": 1})
+
         else:
             info_label.config(text="Tag Lida!\n\nDados não encontrados para o UID da tag.")
 
@@ -121,6 +135,7 @@ def on_connect(tag):
 
     except Exception as e:
         logging.error("Erro durante a leitura da tag NFC: %s", e)
+
 
 def iniciar_leitura():
     global is_reading
@@ -139,6 +154,11 @@ def iniciar_leitura():
     try:
         # Iniciar leitura de tags NFC
         clf.connect(rdwr={'on-connect': on_connect})
+
+        # Inicialização da coleção de frequência de entrada
+        frequency_collection = db['frequencia_entrada']
+        today = datetime.now().strftime("%Y-%m-%d")
+        frequency_collection.update_one({"data": today}, {"$setOnInsert": {"quantidade": 0}}, upsert=True)
 
         # Continue esperando novas tags NFC
         iniciar_leitura()
@@ -168,7 +188,7 @@ except Exception as e:
 # Configuração da interface gráfica
 root = ThemedTk(theme="breeze")
 root.title("SEMG")
-root.geometry("600x500")
+root.geometry("800x600")
 
 is_fullscreen = False
 root.bind("<F11>", toggle_fullscreen)
