@@ -1,0 +1,34 @@
+2023-06-03 10:06:29,023 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:06:30,291 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:06:45,769 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:06:46,865 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:08:36,019 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:08:37,265 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:09:28,417 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:09:29,681 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:10:45,196 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:10:46,224 - ERROR - no reader available on path ttyUSB0
+2023-06-03 10:10:46,224 - ERROR - Erro ao conectar ao leitor NFC: [Errno 19] No such device
+2023-06-03 10:10:49,002 - ERROR - Erro durante a leitura da tag NFC: name 'clf' is not defined
+2023-06-03 10:10:56,523 - ERROR - Erro durante a leitura da tag NFC: name 'clf' is not defined
+2023-06-03 10:10:57,587 - ERROR - Erro durante a leitura da tag NFC: name 'clf' is not defined
+2023-06-03 10:10:57,747 - ERROR - Erro durante a leitura da tag NFC: name 'clf' is not defined
+2023-06-03 10:10:59,420 - ERROR - Erro durante a leitura da tag NFC: name 'clf' is not defined
+2023-06-03 10:11:13,845 - ERROR - Erro ao fechar o programa: name 'clf' is not defined
+2023-06-03 10:11:14,806 - ERROR - Erro ao fechar o programa: name 'clf' is not defined
+2023-06-03 10:11:22,980 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:11:24,241 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:11:32,172 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:11:32,172 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:11:32,172 - INFO - Headers:
+2023-06-03 10:11:32,172 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:11:32,172 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:11:32,172 - INFO - Accept-Charset : utf-8
+2023-06-03 10:11:32,172 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:11:32,172 - INFO - Accept : application/json
+2023-06-03 10:11:32,172 - INFO - -- END Twilio API Request --
+2023-06-03 10:11:33,295 - INFO - Response Status Code: 201
+2023-06-03 10:11:33,295 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:11:33 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ2143e2fddc1a34ac68c1fd215d567cd6', 'Twilio-Request-Duration': '0.096', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:11:33,295 - INFO - Mensagem enviada pelo Twilio: SM2143e2fddc1a34ac68c1fd215d567cd6
+2023-06-03 10:14:44,544 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:14:45,809 - INFO - using PN532v1.6 at /dev/ttyUSB0

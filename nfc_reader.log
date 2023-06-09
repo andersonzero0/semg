@@ -1,0 +1,364 @@
+2023-06-03 10:16:44,974 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:16:46,225 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:16:52,995 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:16:52,995 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:16:52,995 - INFO - Headers:
+2023-06-03 10:16:52,995 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:16:52,995 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:16:52,995 - INFO - Accept-Charset : utf-8
+2023-06-03 10:16:52,995 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:16:52,995 - INFO - Accept : application/json
+2023-06-03 10:16:52,995 - INFO - -- END Twilio API Request --
+2023-06-03 10:16:54,116 - INFO - Response Status Code: 201
+2023-06-03 10:16:54,116 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:16:54 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ578753702df5306f3baf2c8dcf2b1c78', 'Twilio-Request-Duration': '0.111', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:16:54,116 - INFO - Mensagem enviada pelo Twilio: SID SM578753702df5306f3baf2c8dcf2b1c78
+2023-06-03 10:17:09,563 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:17:09,563 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:17:09,563 - INFO - Headers:
+2023-06-03 10:17:09,563 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:17:09,563 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:17:09,563 - INFO - Accept-Charset : utf-8
+2023-06-03 10:17:09,563 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:17:09,563 - INFO - Accept : application/json
+2023-06-03 10:17:09,563 - INFO - -- END Twilio API Request --
+2023-06-03 10:17:09,781 - INFO - Response Status Code: 201
+2023-06-03 10:17:09,781 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:17:09 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '873', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQfcab001afe402185ff148d9f8665a59c', 'Twilio-Request-Duration': '0.108', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:17:09,781 - INFO - Mensagem enviada pelo Twilio: SID SMfcab001afe402185ff148d9f8665a59c
+2023-06-03 10:22:33,560 - ERROR - device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+2023-06-03 10:22:33,561 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:24:56,292 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:25:05,638 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:25:05,814 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:25:05,990 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:25:06,174 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:25:06,366 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:25:10,958 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:25:11,702 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:25:21,030 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:25:22,289 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:27:26,794 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:27:28,049 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:30:12,133 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:30:13,233 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:30:20,758 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:30:20,758 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:30:20,758 - INFO - Headers:
+2023-06-03 10:30:20,758 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:30:20,758 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:30:20,758 - INFO - Accept-Charset : utf-8
+2023-06-03 10:30:20,758 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:30:20,758 - INFO - Accept : application/json
+2023-06-03 10:30:20,759 - INFO - -- END Twilio API Request --
+2023-06-03 10:30:21,919 - INFO - Response Status Code: 201
+2023-06-03 10:30:21,919 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:30:21 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQc605412b3f404b290c4a91ca760332c9', 'Twilio-Request-Duration': '0.120', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:30:21,919 - INFO - Mensagem enviada pelo Twilio: SID SMc605412b3f404b290c4a91ca760332c9
+2023-06-03 10:32:05,120 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:32:06,385 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:32:12,375 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:32:12,375 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:32:12,376 - INFO - Headers:
+2023-06-03 10:32:12,376 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:32:12,376 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:32:12,376 - INFO - Accept-Charset : utf-8
+2023-06-03 10:32:12,376 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:32:12,376 - INFO - Accept : application/json
+2023-06-03 10:32:12,376 - INFO - -- END Twilio API Request --
+2023-06-03 10:32:13,432 - INFO - Response Status Code: 201
+2023-06-03 10:32:13,432 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:32:13 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ0d0506b66471414ef0cf74fd0e269232', 'Twilio-Request-Duration': '0.099', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:32:13,432 - INFO - Mensagem enviada pelo Twilio: SID SM0d0506b66471414ef0cf74fd0e269232
+2023-06-03 10:37:53,037 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:37:54,092 - ERROR - no reader available on path ttyUSB0
+2023-06-03 10:37:54,092 - ERROR - Erro ao conectar ao leitor NFC: [Errno 19] No such device
+2023-06-03 10:37:57,016 - ERROR - Erro ao fechar o programa: name 'clf' is not defined
+2023-06-03 10:38:51,130 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:38:52,369 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:39:03,446 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:39:03,446 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:39:03,446 - INFO - Headers:
+2023-06-03 10:39:03,446 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:39:03,446 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:39:03,446 - INFO - Accept-Charset : utf-8
+2023-06-03 10:39:03,446 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:39:03,446 - INFO - Accept : application/json
+2023-06-03 10:39:03,446 - INFO - -- END Twilio API Request --
+2023-06-03 10:39:04,374 - INFO - Response Status Code: 201
+2023-06-03 10:39:04,375 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:39:04 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ3c2f9c78f5d232ca39c029bfa46c3ae2', 'Twilio-Request-Duration': '0.118', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:39:04,375 - INFO - Mensagem enviada pelo Twilio: SID SM3c2f9c78f5d232ca39c029bfa46c3ae2
+2023-06-03 10:41:04,959 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:41:06,000 - ERROR - no reader available on path ttyUSB0
+2023-06-03 10:41:06,000 - ERROR - Erro ao conectar ao leitor NFC: [Errno 19] No such device
+2023-06-03 10:41:12,873 - ERROR - Erro durante a leitura da tag NFC: name 'clf' is not defined
+2023-06-03 10:41:19,162 - ERROR - Erro durante a leitura da tag NFC: name 'clf' is not defined
+2023-06-03 10:41:19,909 - ERROR - Erro ao fechar o programa: name 'clf' is not defined
+2023-06-03 10:41:25,988 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:41:27,250 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:41:32,723 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:41:32,723 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:41:32,723 - INFO - Headers:
+2023-06-03 10:41:32,723 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:41:32,723 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:41:32,723 - INFO - Accept-Charset : utf-8
+2023-06-03 10:41:32,723 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:41:32,724 - INFO - Accept : application/json
+2023-06-03 10:41:32,724 - INFO - -- END Twilio API Request --
+2023-06-03 10:41:33,867 - INFO - Response Status Code: 201
+2023-06-03 10:41:33,867 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:41:33 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ88a1d5e331a4d48342decbe800f3d8c2', 'Twilio-Request-Duration': '0.089', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:41:33,867 - INFO - Mensagem enviada pelo Twilio: SID SM88a1d5e331a4d48342decbe800f3d8c2
+2023-06-03 10:42:17,830 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:42:19,088 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:42:24,806 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:42:24,806 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:42:24,806 - INFO - Headers:
+2023-06-03 10:42:24,806 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:42:24,806 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:42:24,806 - INFO - Accept-Charset : utf-8
+2023-06-03 10:42:24,806 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:42:24,806 - INFO - Accept : application/json
+2023-06-03 10:42:24,806 - INFO - -- END Twilio API Request --
+2023-06-03 10:42:25,600 - INFO - Response Status Code: 201
+2023-06-03 10:42:25,600 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:42:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQa8302dcd5d0f22a4ba4a565806c86b77', 'Twilio-Request-Duration': '0.093', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:42:25,600 - INFO - Mensagem enviada pelo Twilio: SID SMa8302dcd5d0f22a4ba4a565806c86b77
+2023-06-03 10:46:43,213 - ERROR - input/output error while waiting for ack
+2023-06-03 10:46:43,213 - ERROR - [Errno 5] Input/output error
+2023-06-03 10:46:43,292 - ERROR - input/output error while waiting for ack
+2023-06-03 10:46:43,292 - ERROR - [Errno 5] Input/output error
+2023-06-03 10:46:43,293 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:46:43,306 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:48:13,127 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:48:13,727 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:48:14,799 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:48:14,967 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:48:16,743 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:48:16,919 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:48:34,180 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:48:35,441 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:48:45,328 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:48:45,328 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:48:45,328 - INFO - Headers:
+2023-06-03 10:48:45,328 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:48:45,328 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:48:45,329 - INFO - Accept-Charset : utf-8
+2023-06-03 10:48:45,329 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:48:45,329 - INFO - Accept : application/json
+2023-06-03 10:48:45,329 - INFO - -- END Twilio API Request --
+2023-06-03 10:48:46,375 - INFO - Response Status Code: 201
+2023-06-03 10:48:46,375 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:48:46 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ910fa3b83c9bbaed69f387770c661ca0', 'Twilio-Request-Duration': '0.098', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:48:46,375 - INFO - Mensagem enviada pelo Twilio: SID SM910fa3b83c9bbaed69f387770c661ca0
+2023-06-03 10:48:52,085 - ERROR - input/output error while waiting for ack
+2023-06-03 10:48:52,085 - ERROR - [Errno 5] Input/output error
+2023-06-03 10:48:52,087 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:48:52,088 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:48:56,150 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:48:56,874 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:48:58,586 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:49:04,792 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:49:04,968 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:49:17,966 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:49:19,138 - ERROR - Erro ao fechar o programa: (5, 'Input/output error')
+2023-06-03 10:49:19,574 - ERROR - Erro durante a leitura da tag NFC: (5, 'Input/output error')
+2023-06-03 10:49:50,293 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:49:51,537 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:49:57,210 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:49:57,210 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:49:57,210 - INFO - Headers:
+2023-06-03 10:49:57,210 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:49:57,210 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:49:57,210 - INFO - Accept-Charset : utf-8
+2023-06-03 10:49:57,210 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:49:57,210 - INFO - Accept : application/json
+2023-06-03 10:49:57,210 - INFO - -- END Twilio API Request --
+2023-06-03 10:49:58,120 - INFO - Response Status Code: 201
+2023-06-03 10:49:58,121 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:49:58 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ6b9fc51f55d40cc9dda29d62948fad6d', 'Twilio-Request-Duration': '0.105', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:49:58,121 - INFO - Mensagem enviada pelo Twilio: SID SM6b9fc51f55d40cc9dda29d62948fad6d
+2023-06-03 10:50:04,230 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:50:04,230 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:50:04,231 - INFO - Headers:
+2023-06-03 10:50:04,231 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:50:04,231 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:50:04,231 - INFO - Accept-Charset : utf-8
+2023-06-03 10:50:04,231 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:50:04,231 - INFO - Accept : application/json
+2023-06-03 10:50:04,231 - INFO - -- END Twilio API Request --
+2023-06-03 10:50:04,448 - INFO - Response Status Code: 201
+2023-06-03 10:50:04,448 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:50:04 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '873', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQabc616684b3e0101ce19abddbab04a04', 'Twilio-Request-Duration': '0.110', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:50:04,448 - INFO - Mensagem enviada pelo Twilio: SID SMabc616684b3e0101ce19abddbab04a04
+2023-06-03 10:52:40,941 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:52:42,197 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:52:57,497 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:52:58,577 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:53:05,957 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:53:05,957 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:53:05,957 - INFO - Headers:
+2023-06-03 10:53:05,958 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:53:05,958 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:53:05,958 - INFO - Accept-Charset : utf-8
+2023-06-03 10:53:05,958 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:53:05,958 - INFO - Accept : application/json
+2023-06-03 10:53:05,958 - INFO - -- END Twilio API Request --
+2023-06-03 10:53:07,693 - INFO - Response Status Code: 201
+2023-06-03 10:53:07,693 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:53:07 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQd38f09eb9a3a1385e4293fda5cf835e4', 'Twilio-Request-Duration': '0.099', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:53:07,693 - INFO - Mensagem enviada pelo Twilio: SID SMd38f09eb9a3a1385e4293fda5cf835e4
+2023-06-03 10:54:58,864 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:54:59,953 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:56:11,435 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:56:12,689 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:56:17,764 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 10:56:17,764 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 10:56:17,764 - INFO - Headers:
+2023-06-03 10:56:17,764 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 10:56:17,764 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 10:56:17,764 - INFO - Accept-Charset : utf-8
+2023-06-03 10:56:17,764 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 10:56:17,764 - INFO - Accept : application/json
+2023-06-03 10:56:17,764 - INFO - -- END Twilio API Request --
+2023-06-03 10:56:19,085 - INFO - Response Status Code: 201
+2023-06-03 10:56:19,085 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 13:56:19 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ355c0a165ce0dd24929173edcefcd9b5', 'Twilio-Request-Duration': '0.097', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 10:56:19,086 - INFO - Mensagem enviada pelo Twilio: SID SM355c0a165ce0dd24929173edcefcd9b5
+2023-06-03 10:58:55,866 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:58:57,105 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 10:59:08,020 - INFO - searching for reader on path ttyUSB0
+2023-06-03 10:59:09,105 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 11:00:17,865 - INFO - searching for reader on path ttyUSB0
+2023-06-03 11:00:18,966 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 11:04:59,218 - INFO - searching for reader on path ttyUSB0
+2023-06-03 11:05:00,305 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 11:05:25,017 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 11:05:25,017 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 11:05:25,017 - INFO - Headers:
+2023-06-03 11:05:25,017 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 11:05:25,017 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 11:05:25,017 - INFO - Accept-Charset : utf-8
+2023-06-03 11:05:25,017 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 11:05:25,017 - INFO - Accept : application/json
+2023-06-03 11:05:25,017 - INFO - -- END Twilio API Request --
+2023-06-03 11:05:26,040 - INFO - Response Status Code: 201
+2023-06-03 11:05:26,040 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 14:05:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQd65ef6b83c764b1d98b6127dd88229f6', 'Twilio-Request-Duration': '0.160', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 11:05:26,041 - INFO - Mensagem enviada pelo Twilio: SID SMd65ef6b83c764b1d98b6127dd88229f6
+2023-06-03 18:19:11,940 - INFO - searching for reader on path ttyUSB0
+2023-06-03 18:19:13,209 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 18:19:28,023 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 18:19:28,023 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 18:19:28,023 - INFO - Headers:
+2023-06-03 18:19:28,023 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 18:19:28,023 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 18:19:28,023 - INFO - Accept-Charset : utf-8
+2023-06-03 18:19:28,023 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 18:19:28,023 - INFO - Accept : application/json
+2023-06-03 18:19:28,023 - INFO - -- END Twilio API Request --
+2023-06-03 18:19:29,047 - INFO - Response Status Code: 201
+2023-06-03 18:19:29,048 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 21:19:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '873', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQab35cae8646598e1121f7dc5837681c1', 'Twilio-Request-Duration': '0.090', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 18:19:29,048 - INFO - Mensagem enviada pelo Twilio: SID SMab35cae8646598e1121f7dc5837681c1
+2023-06-03 18:20:05,318 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 18:20:05,318 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 18:20:05,319 - INFO - Headers:
+2023-06-03 18:20:05,319 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 18:20:05,319 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 18:20:05,319 - INFO - Accept-Charset : utf-8
+2023-06-03 18:20:05,319 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 18:20:05,319 - INFO - Accept : application/json
+2023-06-03 18:20:05,319 - INFO - -- END Twilio API Request --
+2023-06-03 18:20:05,529 - INFO - Response Status Code: 201
+2023-06-03 18:20:05,529 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 21:20:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ81ea88ef5e3fc7737b1cb5143fb122fe', 'Twilio-Request-Duration': '0.100', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 18:20:05,529 - INFO - Mensagem enviada pelo Twilio: SID SM81ea88ef5e3fc7737b1cb5143fb122fe
+2023-06-03 18:48:44,142 - INFO - searching for reader on path ttyUSB0
+2023-06-03 18:48:45,239 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 18:48:53,208 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 18:48:53,208 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 18:48:53,208 - INFO - Headers:
+2023-06-03 18:48:53,208 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 18:48:53,208 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 18:48:53,208 - INFO - Accept-Charset : utf-8
+2023-06-03 18:48:53,208 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 18:48:53,208 - INFO - Accept : application/json
+2023-06-03 18:48:53,208 - INFO - -- END Twilio API Request --
+2023-06-03 18:48:54,416 - INFO - Response Status Code: 201
+2023-06-03 18:48:54,416 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 21:48:54 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQd9908a995ab5c0f1d4372873f5f4e526', 'Twilio-Request-Duration': '0.091', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 18:48:54,416 - INFO - Mensagem enviada pelo Twilio: SID SMd9908a995ab5c0f1d4372873f5f4e526
+2023-06-03 18:49:16,073 - INFO - searching for reader on path ttyUSB0
+2023-06-03 18:49:17,336 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 18:49:23,192 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 18:49:23,192 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 18:49:23,192 - INFO - Headers:
+2023-06-03 18:49:23,192 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 18:49:23,192 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 18:49:23,192 - INFO - Accept-Charset : utf-8
+2023-06-03 18:49:23,192 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 18:49:23,192 - INFO - Accept : application/json
+2023-06-03 18:49:23,192 - INFO - -- END Twilio API Request --
+2023-06-03 18:49:23,863 - INFO - Response Status Code: 201
+2023-06-03 18:49:23,863 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 21:49:23 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '865', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ89241222dd583848b5558e4d40dc83e1', 'Twilio-Request-Duration': '0.106', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 18:49:23,863 - INFO - Mensagem enviada pelo Twilio: SID SM89241222dd583848b5558e4d40dc83e1
+2023-06-03 18:51:22,695 - INFO - searching for reader on path ttyUSB0
+2023-06-03 18:51:23,960 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 18:52:16,380 - INFO - searching for reader on path ttyUSB0
+2023-06-03 18:52:17,624 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-03 18:52:24,460 - INFO - -- BEGIN Twilio API Request --
+2023-06-03 18:52:24,461 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-03 18:52:24,461 - INFO - Headers:
+2023-06-03 18:52:24,461 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-03 18:52:24,461 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-03 18:52:24,461 - INFO - Accept-Charset : utf-8
+2023-06-03 18:52:24,461 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-03 18:52:24,461 - INFO - Accept : application/json
+2023-06-03 18:52:24,461 - INFO - -- END Twilio API Request --
+2023-06-03 18:52:25,549 - INFO - Response Status Code: 201
+2023-06-03 18:52:25,550 - INFO - Response Headers: {'Date': 'Sat, 03 Jun 2023 21:52:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQe54834baf83963fb57c4b22a998b9c49', 'Twilio-Request-Duration': '0.183', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-03 18:52:25,550 - INFO - Mensagem enviada pelo Twilio: SID SMe54834baf83963fb57c4b22a998b9c49
+2023-06-04 12:06:35,379 - INFO - searching for reader on path ttyUSB0
+2023-06-04 12:06:36,971 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-04 12:09:21,845 - INFO - searching for reader on path ttyUSB0
+2023-06-04 12:09:23,184 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-04 12:10:08,934 - INFO - -- BEGIN Twilio API Request --
+2023-06-04 12:10:08,934 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-04 12:10:08,934 - INFO - Headers:
+2023-06-04 12:10:08,934 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-04 12:10:08,934 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-04 12:10:08,934 - INFO - Accept-Charset : utf-8
+2023-06-04 12:10:08,934 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-04 12:10:08,934 - INFO - Accept : application/json
+2023-06-04 12:10:08,934 - INFO - -- END Twilio API Request --
+2023-06-04 12:10:10,035 - INFO - Response Status Code: 201
+2023-06-04 12:10:10,035 - INFO - Response Headers: {'Date': 'Sun, 04 Jun 2023 15:10:10 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ96e8c23e29a1e820d291d216c56a3c19', 'Twilio-Request-Duration': '0.115', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-04 12:10:10,035 - INFO - Mensagem enviada pelo Twilio: SID SM96e8c23e29a1e820d291d216c56a3c19
+2023-06-04 12:13:37,309 - INFO - searching for reader on path ttyUSB0
+2023-06-04 12:13:38,559 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-04 12:13:45,198 - INFO - -- BEGIN Twilio API Request --
+2023-06-04 12:13:45,198 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-04 12:13:45,198 - INFO - Headers:
+2023-06-04 12:13:45,198 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-04 12:13:45,198 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-04 12:13:45,198 - INFO - Accept-Charset : utf-8
+2023-06-04 12:13:45,198 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-04 12:13:45,198 - INFO - Accept : application/json
+2023-06-04 12:13:45,198 - INFO - -- END Twilio API Request --
+2023-06-04 12:13:46,031 - INFO - Response Status Code: 201
+2023-06-04 12:13:46,031 - INFO - Response Headers: {'Date': 'Sun, 04 Jun 2023 15:13:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQ079bcb2666729ba3c1ba5e3670254c14', 'Twilio-Request-Duration': '0.102', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-04 12:13:46,032 - INFO - Mensagem enviada pelo Twilio: SID SM079bcb2666729ba3c1ba5e3670254c14
+2023-06-04 12:14:44,161 - INFO - searching for reader on path ttyUSB0
+2023-06-04 12:14:45,438 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-04 12:16:00,878 - INFO - -- BEGIN Twilio API Request --
+2023-06-04 12:16:00,879 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-04 12:16:00,879 - INFO - Headers:
+2023-06-04 12:16:00,879 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-04 12:16:00,879 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-04 12:16:00,879 - INFO - Accept-Charset : utf-8
+2023-06-04 12:16:00,879 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-04 12:16:00,879 - INFO - Accept : application/json
+2023-06-04 12:16:00,879 - INFO - -- END Twilio API Request --
+2023-06-04 12:16:01,980 - INFO - Response Status Code: 201
+2023-06-04 12:16:01,980 - INFO - Response Headers: {'Date': 'Sun, 04 Jun 2023 15:16:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQacf2f974250ca494d62d9e2afb52abb2', 'Twilio-Request-Duration': '0.120', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-04 12:16:01,980 - INFO - Mensagem enviada pelo Twilio: SID SMacf2f974250ca494d62d9e2afb52abb2
+2023-06-04 12:16:36,443 - INFO - searching for reader on path ttyUSB0
+2023-06-04 12:16:37,834 - INFO - using PN532v1.6 at /dev/ttyUSB0
+2023-06-04 12:18:03,279 - INFO - -- BEGIN Twilio API Request --
+2023-06-04 12:18:03,279 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC55d0f44906c38c5599002a6a090643d1/Messages.json
+2023-06-04 12:18:03,279 - INFO - Headers:
+2023-06-04 12:18:03,279 - INFO - User-Agent : twilio-python/8.2.1 (Linux x86_64) Python/3.10.6
+2023-06-04 12:18:03,279 - INFO - X-Twilio-Client : python-8.2.1
+2023-06-04 12:18:03,279 - INFO - Accept-Charset : utf-8
+2023-06-04 12:18:03,279 - INFO - Content-Type : application/x-www-form-urlencoded
+2023-06-04 12:18:03,279 - INFO - Accept : application/json
+2023-06-04 12:18:03,279 - INFO - -- END Twilio API Request --
+2023-06-04 12:18:04,515 - INFO - Response Status Code: 201
+2023-06-04 12:18:04,515 - INFO - Response Headers: {'Date': 'Sun, 04 Jun 2023 15:18:04 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '867', 'Connection': 'keep-alive', 'Twilio-Request-Id': 'RQc69d0b148f6f3db098e5e53cf8857ffd', 'Twilio-Request-Duration': '0.089', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'Strict-Transport-Security': 'max-age=31536000', 'Twilio-Concurrent-Requests': '1', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com'}
+2023-06-04 12:18:04,516 - INFO - Mensagem enviada pelo Twilio: SID SMc69d0b148f6f3db098e5e53cf8857ffd
