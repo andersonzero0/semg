@@ -77,10 +77,10 @@ def on_connect(tag):
             image_data = urllib.request.urlopen(avatar_url).read()
             image = Image.open(io.BytesIO(image_data))
             image = image.resize((100, 100))
-            
+
             # Criação da máscara circular para a imagem
             rounded_image = create_circle_mask(image, (100, 100))
-            
+
             photo = ImageTk.PhotoImage(rounded_image)
 
             info_label.config(text=f"Nome: {nome}\nTurma: {turma}\nNome do Responsável: {nome_responsavel}\nContato do Responsável: {contato_responsavel}")
@@ -95,8 +95,13 @@ def on_connect(tag):
             # Verifique o status atual e defina a mensagem apropriada
             if status_atual.get() == "Entrada":
                 mensagem = f"Olá, {nome_responsavel}! Seu(a) filho(a) {nome} da turma {turma} entrou na escola."
+                data["status"] = "green"  # Update 'status' to 'green' for entrada
             elif status_atual.get() == "Saída":
                 mensagem = f"Olá, {nome_responsavel}! Seu(a) filho(a) {nome} da turma {turma} saiu da escola."
+                data["status"] = "red"  # Update 'status' to 'red' for saida
+
+            # Atualize o documento no MongoDB
+            collection.update_one(query, {"$set": data})
 
             # Envio da mensagem pelo Twilio
             if mensagem:
