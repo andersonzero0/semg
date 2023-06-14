@@ -42,7 +42,8 @@ def adicionar_dado():
         "contact_resp": contact_resp,
         "turma": turma,
         "avatar": avatar,
-        "uid": uid  # Add 'uid' field to the data
+        "uid": uid,
+        "status": "red"
     }
 
     collection.insert_one(novo_dado)
