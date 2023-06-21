@@ -23,7 +23,7 @@ def adicionar_dado():
     contact_resp = entry_contact_resp.get()
     turma = entry_turma.get()
     avatar = entry_avatar.get()
-    uid = entry_uid.get()  # New field: 'uid'
+    uid = entry_tag_uid.get()  # New field: 'uid'
 
     # Validate input fields
     if not validate_name(name_aluno):
