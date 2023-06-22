@@ -118,7 +118,7 @@ def on_connect(tag):
             # Contagem de frequência de entrada
             if status_atual.get() == "Entrada":
                 now = datetime.now()
-                if now.hour == 18 and 00 <= now.minute <= 59 or now.hour == 20 and now.minute <= 00:
+                if now.hour == 6 and 30 <= now.minute <= 59 or now.hour == 7 and now.minute <= 30:
                     frequency_collection = db['frequencia_entrada']
                     today = datetime.now().strftime("%Y-%m-%d")
                     query = {"data": today}
