@@ -16,15 +16,15 @@ logging.basicConfig(level=logging.INFO, filename='nfc_reader.log', format='%(asc
 
 # Conexão com o MongoDB Atlas
 try:
-    client = MongoClient('mongodb+srv://root:projectnfc@cluster0.601pr9k.mongodb.net/?retryWrites=true&w=majority')
+    client = MongoClient('')
     db = client['users']
     collection = db['infos']
 except Exception as e:
     logging.error("Erro ao conectar ao MongoDB: %s", e)
 
 # Configuração do Twilio
-account_sid = 'AC55d0f44906c38c5599002a6a090643d1'
-auth_token = 'd25a46f9e39284954bd8dcbbe2381e27'
+account_sid = ''
+auth_token = ''
 try:
     twilio_client = Client(account_sid, auth_token)
 except Exception as e:
