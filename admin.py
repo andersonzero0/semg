@@ -12,7 +12,7 @@ import nfc.clf
 import clipboard
 
 # Connect to the MongoDB Atlas database
-client = MongoClient("mongodb+srv://root:projectnfc@cluster0.601pr9k.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("")
 db = client.users
 collection = db.infos
 frequencia_collection = db.frequencia_entrada  # New collection: frequencia_entrada
